@@ -2,6 +2,8 @@
 
 server.go启动一个tcp listener，client.go启动一个client连接tcp server，在建立的tcp连接中loop发送字符串"Hello! How are you?"
 
+演示命令：`go run main.go server.go client.go`
+
 tcp server收到的消息可能如下
 ```plaintext
 read 19 bytes: Hello! How are you?
